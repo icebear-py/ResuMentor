@@ -61,13 +61,16 @@ def chat_with_tutor(session_id, msg):
             "msg": msg
         }
 
-        resp = requests.post(f"{API_BASE_URL}/chat/", data=data)
+        resp = requests.post(f"{API_BASE_URL}/chat/", data=data, timeout=30)
 
         if resp.status_code == 200:
             return resp.json()
         else:
             st.error(f"Chat failed: {resp.text}")
             return None
+    except requests.exceptions.Timeout:
+        st.error("Chat request timed out. Please try again.")
+        return None
     except Exception as e:
         st.error(f"Error chatting: {str(e)}")
         return None
