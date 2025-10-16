@@ -1,5 +1,5 @@
-# ResuMentor UI
-An intelligent AI-powered assistant designed for both recruiters and job seekers.
+# ResuMentor 
+An intelligent AI agent designed for both recruiters and job seekers.
 
 For recruiters, it efficiently analyzes and screens resumes against job descriptions to identify the most suitable candidates.
 
