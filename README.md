@@ -1,6 +1,9 @@
 # ResuMentor UI
+An intelligent AI-powered assistant designed for both recruiters and job seekers.
 
-A beautiful and fully functional Streamlit UI for the ResuMentor application.
+For recruiters, it efficiently analyzes and screens resumes against job descriptions to identify the most suitable candidates.
+
+For job seekers, it evaluates resumes to highlight missing skills based on the target job description and generates a personalized learning path to bridge those gaps — complete with curated free YouTube resources for skill development.
 
 ## Features
 
@@ -27,9 +30,11 @@ A beautiful and fully functional Streamlit UI for the ResuMentor application.
 pip install -r requirements.txt
 ```
 
-2. Make sure your backend API is running on `http://localhost:8000`
+2. From root directory run `uvicorn app.main:app` 
 
-3. Run the Streamlit app:
+3. Make sure your backend API is running on `http://localhost:8000`
+
+4. Run the Streamlit app:
 ```bash
 streamlit run app.py
 ```
@@ -52,6 +57,6 @@ The UI connects to the following API endpoints:
 - `POST /plan/` - Generate learning path
 - `POST /chat/` - Chat with AI tutor
 
-## Customization
+## Contributors
 
-The UI uses custom CSS for styling. You can modify the styles in the `st.markdown()` section at the top of `app.py` to customize colors, fonts, and layouts.
+- Ansh Agnihotri
