@@ -1,6 +1,6 @@
 # ResuMentor 🤖📄
 
-An intelligent AI-powered resume screening and learning path generation agentic platform designed for both recruiters and job seekers.
+An intelligent AI-powered resume screening and learning path generation agentic platform with integrated chatbot designed for both recruiters and job seekers.
 
 **For Recruiters**: Efficiently analyze and screen resumes against job descriptions to identify the most suitable candidates with detailed scoring and insights.
 
