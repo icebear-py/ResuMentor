@@ -188,7 +188,7 @@ def display_screening_results(result, user_role):
         
         col1, col2 = st.columns([3, 1])
         with col1:
-            st.markdown('<div style="color: #888; font-size: 1.5rem; margin-top: 0.5rem;">💡 You can cover up these missing skills by generating a learning plan. (May take upto 2 minutes) </div>', unsafe_allow_html=True)
+            st.markdown('<div style="color: #888; font-size: 1.3rem; margin-top: 0.5rem;">💡 Cover up these missing skills by generating a learning plan along with free resources. (May take upto 2 minutes) </div>', unsafe_allow_html=True)
         with col2:
             if st.button("🎯 Cover Up My Missing Skills", key="coverup_button"):
                 st.session_state.is_generating_path = True

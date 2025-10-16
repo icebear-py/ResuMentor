@@ -35,9 +35,9 @@ def main():
     st.markdown('<h1 class="main-header">📄 ResuMentor : Screening & learning path generating agent</h1>', unsafe_allow_html=True)
     st.markdown("""
     <div style="text-align: center; margin-bottom: 2rem; color: #666; font-size: 1.4rem;">
-        Resume screening agent for recruiters and individuals applying for job.
-        Screen the resume according to job description and if you're applying for job
-        you can use it for personalized learning path generation along with youtube resources.
+        Resume screening agent for recruiters and job seekers applying for job.
+        Screen the resume according to job description or if you're a job seeker
+        you can use it to cover missing skills according to the job description by generating personalized learning path along with free youtube resources.
     </div>
     """, unsafe_allow_html=True)
 
