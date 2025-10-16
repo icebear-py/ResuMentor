@@ -30,11 +30,14 @@ For job seekers, it evaluates resumes to highlight missing skills based on the t
 pip install -r requirements.txt
 ```
 
-2. From root directory run `uvicorn app.main:app` 
+2. From root directory run :
+```bash
+uvicorn app.main:app
+```
 
-3. Make sure your backend API is running on `http://localhost:8000`
+4. Make sure your backend API is running on `http://localhost:8000`
 
-4. Run the Streamlit app:
+5. Run the Streamlit app:
 ```bash
 streamlit run app.py
 ```
