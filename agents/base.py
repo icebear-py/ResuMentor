@@ -1,16 +1,16 @@
 import os
 from agno.agent import Agent
-from agno.models.openai import OpenAIChat
+from agno.models.deepinfra import DeepInfra
 from dotenv import load_dotenv
 load_dotenv()
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-DEFAULT_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini-2024-07-18")
+DEEPINFRA_API_KEY = os.getenv("DEEPINFRA_API_KEY")
+DEFAULT_MODEL = os.getenv("DEEPINFRA_MODEL", "deepseek-ai/DeepSeek-V3.2-Exp")
 
 def make_agent(name: str, instructions: str, model_name: str = DEFAULT_MODEL):
-    model = OpenAIChat(
+    model = DeepInfra(
         id=model_name,
-        api_key=OPENAI_API_KEY
+        api_key=DEEPINFRA_API_KEY
     )
     return Agent(
         name=name,
