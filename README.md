@@ -9,11 +9,11 @@ An intelligent AI-powered resume screening and learning path generation agentic 
 ## Key Features
 
 ### Core Functionality
-- ** Resume Upload**: Drag and drop or click to upload PDF/DOCX resumes
-- ** Role Selection**: Choose between "Recruiter" or "Job Applicant" modes
-- ** AI Screening**: Get detailed resume analysis with visual score indicators
-- ** Learning Path**: Personalized 7-day learning plans for covering skill gaps
-- ** AI Chat**: Interactive chat with AI tutor for career guidance
+-  Resume Upload: Drag and drop or click to upload PDF/DOCX resumes
+-  Role Selection: Choose between "Recruiter" or "Job Applicant" modes
+-  AI Screening: Get detailed resume analysis with visual score indicators
+-  Learning Path: Personalized 7-day learning plans for covering skill gaps
+-  AI Chat: Interactive chat with AI tutor for career guidance
 
 ### Visual Experience
 - **Dynamic Score Circle**: 
