@@ -42,7 +42,7 @@ ResuMentor follows a modern microservices architecture with clear separation of 
 │   - Learning    │    │   - /screen     │    │   - Resume      │
 │   - Chat        │    │   - /plan       │    │   - YouTube     │
 └─────────────────┘    │   - /chat       │    └─────────────────┘
-                        └─────────────────┘
+                       └─────────────────┘
 ```
 
 ### System Components
